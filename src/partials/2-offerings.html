@@ -1,0 +1,117 @@
+<section class="offerings" id="service">
+  <div class="offerings__container">
+    <!-- apple -->
+    <div class="offerings__img">
+      <picture>
+        <source
+          srcset="
+            ./images/offerings/apple_lg@1x.webp 1x,
+            ./images/offerings/apple_lg@2x.webp 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/webp"
+          width="550"
+          height="604"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple_lg@1x.png 1x,
+            ./images/offerings/apple_lg@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/png"
+          width="550"
+          height="604"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple_md@1x.webp 1x,
+            ./images/offerings/apple_md@2x.webp 2x
+          "
+          media="(min-width: 768px)"
+          type="image/webp"
+          width="704"
+          height="394"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple_md@1x.png 1x,
+            ./images/offerings/apple_md@2x.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/png"
+          width="704"
+          height="394"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple_sm@1x.webp 1x,
+            ./images/offerings/apple_sm@2x.webp 2x
+          "
+          media="(max-width: 767px)"
+          type="image/webp"
+          width="280"
+          height="310"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple_sm@1x.png 1x,
+            ./images/offerings/apple_sm@2x.png 2x
+          "
+          media="(max-width: 767px)"
+          type="image/png"
+          width="280"
+          height="310"
+        />
+        <img
+          class="offerings__img--mobile"
+          src="./images/offerings/apple_sm@1x.png"
+          alt="Apple"
+          width="280"
+          height="310"
+        />
+      </picture>
+    </div>
+    <!-- title + text -->
+    <div class="offerings__box--title">
+      <h2 class="offerings__title">What&#8217;s Special About Our Offerings</h2>
+      <p class="offerings__text">
+        At FoodSta, we pride ourselves on offering fast, reliable,
+        and delicious food delivery services. Whether you're in the
+        mood for something new or sticking to your favorites, ordering with us 
+        is simple and satisfying.
+      </p>
+      <!-- about -->
+      <div class="offerings__box--about">
+        <ul class="offerings__list">
+          <li class="offerings__item">
+            <h3 class="offerings__subtitle deliv">Fastest Delivery</h3>
+            <p class="offerings__subtext">
+              We prioritize getting your food to you as quickly as
+              possible without compromising on quality.
+            </p>
+          </li>
+          <li class="offerings__item">
+            <h3 class="offerings__subtitle order">Easy to order</h3>
+            <p class="offerings__subtext">
+              Our intuitive platform makes it effortless to place an order,
+              with a wide variety of options to choose from.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- button + anchor  -->
+      <div class="offerings__box--btn-link">
+        <button class="offerings__btn-order" type="button" data-modal-open>
+          Order Now
+        </button>
+        <a class="offerings__link" href="#"
+          >Read More
+          <svg class="offerings__arrow" width="10" height="10">
+            <use href="./images/icons.svg#icon-arrow-r"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
